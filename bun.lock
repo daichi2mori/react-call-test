@@ -5,6 +5,7 @@
       "name": "react-call-test",
       "dependencies": {
         "react": "^19.0.0",
+        "react-call": "^1.7.0",
         "react-dom": "^19.0.0",
       },
       "devDependencies": {
@@ -171,6 +172,8 @@
     "postcss": ["postcss@8.5.2", "", { "dependencies": { "nanoid": "^3.3.8", "picocolors": "^1.1.1", "source-map-js": "^1.2.1" } }, "sha512-MjOadfU3Ys9KYoX0AdkBlFEF1Vx37uCCeN4ZHnmwm9FfpbsGWMZeBLMmmpY+6Ocqod7mkdZ0DT31OlbsFrLlkA=="],
 
     "react": ["react@19.0.0", "", {}, "sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ=="],
+
+    "react-call": ["react-call@1.7.0", "", { "peerDependencies": { "react": ">=18" } }, "sha512-HjWK7zzeooYkOlFulkmEd1PFKKPfx7oEHogtSvOCv+6LIh/zTSsTtM0hpAnC5Sm5QVadhSeYLCos86JkcXD0Ag=="],
 
     "react-dom": ["react-dom@19.0.0", "", { "dependencies": { "scheduler": "^0.25.0" }, "peerDependencies": { "react": "^19.0.0" } }, "sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ=="],
 
